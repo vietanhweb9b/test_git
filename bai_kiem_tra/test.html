@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="test.css">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        .container{
+            height: 1000px;
+            width: 980px;
+            margin:0 auto;
+            /* background-color: red; */
+        }
+        .header{
+            background-image: url(images/images/watches-banner_2x.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height:150px;
+        }
+        .header img{
+            height: 80px;
+            width: 15%;
+            margin: 30px 40px;
+        }
+        .nav{
+            display: flex;
+            position: relative;
+            height:60px;
+            background-color: green;
+            
+        }
+        .form{
+            position: absolute;
+            top:15px;
+            left: 30px;
+        }
+        .form input{
+            padding:5px 0;
+            border-radius: 5px;
+        }
+        #submit{
+            padding:5px 10px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .menu{
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .menu li{
+            display: inline-block;
+            margin-left: 15px;
+        }
+        .menu a{
+            text-decoration: none;
+            font-size: large;
+            font-family: 'Times New Roman';
+            color: aliceblue; 
+        }
+        .content{
+            /* height:600px; */
+            background-color: black;
+        }
+        .content1{
+            display: flex;
+        }
+        .main1{
+            text-align: center;
+            width:380px;
+            background-color: brown;
+            margin: 7px 5px 5px 5px;
+        }
+        .main1 img{
+            height:150px;
+            width:200px;
+            margin-top:15px ;
+        }
+        span{
+            text-decoration: underline;
+            color: blue;
+            font-family: 'Times New Roman';
+            font-variant: small-caps;
+        }
+        .main2{
+            margin: 7px 5px 5px 0;
+            width: 585px;
+            background-color: aqua;
+            display: flex;
+        }
+        .main2 img{
+            height:200px;
+            width:150px;
+            margin:15px 0 0 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/images/Omega_Watches_logo.png" alt="">
+            
+        </div>
+        <div class="nav">
+            <div class="form">
+                <form action="">
+                    <input type="text">
+                    <input type="submit" value="Search" id="submit">
+                </form>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+                <div class="content1">
+                    <div class="main1">
+                        <img src="images/images/dlc-black-rolex-milgauss.jpg" alt=""> <br>
+                        <span>Lorem ipsum dolor sit elit.</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            At, tempore error odio minima exercitationem voluptas 
+                            placeat fugiat, asperiores omnis quis possimus, ullam 
+                            voluptatum doloremque enim sequi adipisci non a sed.</p>
+                    </div>
+                    <div class="main2">
+                        <div>
+                            <img src="images/images/new-rolex-cellini-time-diamond-bezel.jpeg" alt=""> <br>
+                            
+                        </div>
+                        <div>
+                            <span>Lorem ipsum dolor sit amet consectetur</span>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque 
+                                nisi similique odit unde blanditiis, alias repudiandae id perspiciatis 
+                                labore autem aperiam minima modi, itaque soluta dignissimos totam vero,
+                                nesciunt consequuntur porro ratione fugiat ab ut omnis? Tempore molestiae 
+                                iste, eveniet cupiditate aspernatur voluptate? Perspiciatis fuga eligendi 
+                                
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="footer"></div>
+    </div>
+</body>
+</html>
